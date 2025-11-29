@@ -1,0 +1,28 @@
+# Job Copilot (Single-file)
+
+
+A personal Job Copilot app (Simplify-like) — single-file Node server that serves a React + Tailwind SPA and provides backend APIs for auth, applications, resume scoring, a live jobboard (SSE), and auto-apply (safe flow).
+
+
+> This repo is meant for **personal use / prototyping**. It uses file-based JSON storage (`users.json`, `applications.json`, `jobboard.json`). Do not run this as-is in a public production environment without applying security hardening.
+
+
+## Quick start (local)
+
+
+```bash
+# clone repository
+git clone <your-repo-url>
+cd <repo-folder>
+
+
+# install
+npm install
+
+
+# run
+node job-copilot-singlefile.js
+
+
+# open UI
+open http://localhost:4000/
